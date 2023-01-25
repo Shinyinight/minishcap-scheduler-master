@@ -1,0 +1,11 @@
+appName: minishcap
+
+logger:
+  appenders:
+    consoleLog:
+      type: console
+  categories:
+    default:
+      appenders:
+        - consoleLog
+      level: debug
